@@ -234,3 +234,28 @@ h1 {
   opacity: 0;
   transition: opacity 0.3s linear;
 }
+
+.circle-text {
+  display: table-cell;
+  height: 70px; /*change this and the width
+  for the size of your initial circle*/
+  width: 70px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  /*make it pretty*/
+  background: steelblue;
+  font: 14px "Montserrat", sans-serif; 
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#circle {
+  color: white;
+}
+
+.col-sm-2 {
+  margin-right: -5%;
+}
