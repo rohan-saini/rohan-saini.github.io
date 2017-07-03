@@ -1,6 +1,5 @@
 .jumbotron {
   height: 100vh;
-  background-color: lightsteelblue;
   background-image: url('city.jpg'); 
   color: white;
 }
