@@ -10,10 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-	@import url('https://fonts.googleapis.com/css?family=Montserrat');
-  </style>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -29,10 +26,40 @@
 	</div>
 
 	<!-- LANDING PAGE -->
-	<div class="jumbotron text-center" id="jumbo" style="padding-top: 20%;">
+	<div class="jumbotron text-center" id="jumbo" style="padding-top: 19%;">
 		<div class="container">
 			<h1>Rohan Saini</h1> 
 			<p>student | developer | engineer</p> 
+			<!-- modal -->
+			<a class="fa fa-user-circle-o fa-3x" aria-hidden="true" data-toggle="modal" data-target="#myModal"></a>
+			<div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			    
+			      <!-- Modal content-->
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			          <h4 class="modal-title">Welcome to my website</h4>
+			        </div>
+			        <div class="modal-body">
+			        	<div class="container-fluid">
+			        		<div class="row">
+					        	<div class="col-sm-4">
+					        		<div class="container">
+					        			<img src="images/me.jpg" height="250" width="235" style="padding-bottom: 5%;">
+					        		</div>
+					        	</div>
+					        	<div class="col-sm-8" align="left">
+					        		<br>
+					        		<p style="font-size:18px;">My name is Rohan Saini and I am currently a junior studying Computer Science at the University of Michigan. I believe that software applications can be effectively utilized in almost any field out there and I hope to take advantage of that fact throughout my professional career. Scroll down to see some of the skills I've gained from previous work experiences and global travels.</p>
+					        	</div>
+				        	</div>
+			        	</div>
+			        </div>
+			        
+			      </div>
+			    </div>
+			</div>
 		</div>
 	</div>
 
@@ -246,7 +273,8 @@
 		<p>Take a look at where I've been around the world and what I'm doing today</p>
 		<br>
 		  <div class="container text-center" id="map">
-		  	<img src="images/worldmap.png" width="800" height="500">
+		  	  <img src="images/worldmap.png" class="img-responsive" width="800" height="500">
+
 		  	  <a id="dotHerndon" title="Herndon, VA" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Where I was born and raised. Also where I finished high school and interned at Fannie Mae."><i class="fa fa-circle"></i></a>
 
 		      <a id="dotMI" title="Ann Arbor, MI" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Where I go to school (University of Michigan) and live most of the year."><i class="fa fa-circle"></i></a>
@@ -259,9 +287,9 @@
 
 			  <a id="dotBrazil" title="Rio de Janeiro, Brazil" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="A fun, vibrant city right on the beach with tons to do."><i class="fa fa-circle"></i></a>
 
-			  <a id="dotCancun" title="Cancun, Mexico" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="A great tourist destination that offers sunny beaches and fancy hotels."><i class="fa fa-circle"></i></a>
+			  <a id="dotCancun" title="Cancun, Mexico" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="A great tourist destination that offers sunny beaches and fancy hotels."><i class="fa fa-circle"></i></a>
 
-			  <a id="dotCostaRica" title="San Jose, Costa Rica" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="From luxury resorts to ziplines through the jungle, visiting Costa Rica was a blast."><i class="fa fa-circle"></i></a>
+			  <a id="dotCostaRica" title="San Jose, Costa Rica" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="From luxury resorts to ziplines through the jungle, visiting Costa Rica was a blast."><i class="fa fa-circle"></i></a>
 
 			  <a id="dotLondon" title="London, England" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="One of the most influential cities in the world that offers both historical and modern attractions."><i class="fa fa-circle"></i></a>
 
