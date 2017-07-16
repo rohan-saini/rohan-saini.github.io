@@ -13,17 +13,17 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
 
 	<!-- NAVBAR -->
-	<div class="w3-top">
-		<ul id="navbar">
-		    <li class="active pull-left"><a href="#" class="w3-mobile">Home</a></li>
-		    <li><a href="#resume" class="w3-mobile">Resume</a></li>
-		    <li><a href="#whatimupto" class="w3-mobile">What I'm Up To</a></li>
-		    <li><a href="#contact" class="w3-mobile">Contact</a></li>
+	<nav class="navbar navbar-collapse navbar-fixed-top" >
+		<ul class="nav navbar-nav" id="navbar">
+			<li><a href="#jumbo">Home</a></li>
+		    <li><a href="#resume">Resume</a></li>
+		    <li><a href="#whatimupto">What I'm Up To</a></li>
+		    <li><a href="#contact">Contact</a></li>
 		</ul>
-	</div>
+	</nav>
 
 	<!-- LANDING PAGE -->
 	<div class="jumbotron text-center" id="jumbo" style="padding-top: 19%;">
@@ -31,7 +31,7 @@
 			<h1>Rohan Saini</h1> 
 			<p>student | developer | engineer</p> 
 			<!-- modal -->
-			<a class="social fa fa-user-circle-o fa-3x" aria-hidden="true" data-toggle="modal" data-target="#myModal"></a>
+			<a class="social fa fa-user-circle-o fa-3x" aria-hidden="true" data-toggle="modal" href="#myModal"></a>
 			<div class="modal fade" id="myModal" role="dialog">
 			    <div class="modal-dialog modal-lg">
 			    
