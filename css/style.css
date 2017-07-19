@@ -157,6 +157,10 @@ h1 {
   background-color: inherit !important;
 }
 
+.nav li a:focus {
+  background-color: inherit !important;
+}
+
 #download {
   position: relative;
   padding-bottom: 0%;
